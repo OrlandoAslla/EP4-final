@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;}
+h1{
+    text-align: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    background-color: greenyellow;
+    padding: 0%;
+    margin: 0%;}
+button{
+    justify-content: center ;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    width: 550px;
+    height: 30px;
+    border-radius: 10px;}
+ .caja1{
+    justify-content: center;
+    display: flex;
+    background-color: aqua;}
+ .icono1{
+    width: 30px;
+    height: 40px;
+    display: flex;
+    margin-left: 40px;
+    margin-right: 75px;
+    margin-top: 25px;}
+ .icono2{
+    width: 30px;
+    height: 40px;
+    display: flex;
+    margin-left: 30px;
+    margin-top: 25px;}
+ .menu1{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: aquamarine;
+    padding: 20px;}
+ a{
+    text-decoration: none;
+    color: black;}
+
+    .encabezado{
+      background-image: url(../Imagenes/Alimentos.webp);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 150px;
+   }
+   .conteiner-items{
+      justify-content: center;
+      margin-top: 30px;
+      display: flex;
+      place-items: center
+   }
+   .items{
+      margin: 5px;
+      width: 300px;
+      height: 330px;
+      justify-content: space-between;
+      text-align: center;
+      border: 1px solid black;
+   
+   }
+   
+   .items img{
+      width: 220px;
+   }
+   .Info-item{
+      font-size: 7px;
+   }
+   .Info-item p{
+      font-size: 20px;
+   }
+   .Info-item button{
+      width: 200px;
+      margin-left: 50px;}
+   .final{
+         text-align: center;
+         justify-content: center;
+      }
+   .final img{
+         font-size: cover;
+         width: 1500px;
+      }

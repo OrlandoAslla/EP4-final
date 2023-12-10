@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    background-color: greenyellow;
+    padding: 0%;
+    margin: 0%;
+}
+button{
+    justify-content: center ;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    width: 550px;
+    height: 30px;
+    border-radius: 10px;
+ }
+ .caja1{
+    justify-content: center;
+    display: flex;
+    background-color: aqua;
+ }
+ .icono1{
+    width: 30px;
+    height: 40px;
+    display: flex;
+    margin-left: 40px;
+    margin-right: 75px;
+    margin-top: 25px;
+ }
+ .icono2{
+    width: 30px;
+    height: 40px;
+    display: flex;
+    margin-left: 30px;
+    margin-top: 25px;
+ }
+ .menu1{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: aquamarine;
+    padding: 20px;
+ }
+ a{
+    text-decoration: none;
+    color: black;
+ }
+
+ .container{
+   margin: auto;
+   background-color: white;
+   width: 1500px;
+   padding: 10px;
+   margin-top: 20px;
+ }
+ 
+ ul, li {
+     padding: 0;
+     margin: 0;
+     list-style: none;
+ }
+ 
+ ul.slider{
+   position: relative;
+   width: 900px;
+   height: 300px;
+ }
+ 
+ ul.slider li {
+     position: absolute;
+     left: 0px;
+     top: 0px;
+     opacity: 0;
+     width: inherit;
+     height: inherit;
+     transition: opacity .5s;
+     background:#fff;
+ }
+ 
+ ul.slider li img{
+   width: 1500px;
+   height: 420px;
+   object-fit: cover;
+ }
+ 
+ ul.slider li:first-child {
+     opacity: 1;
+ }
+ 
+ ul.slider li:target {
+     opacity: 1;
+ }
+ 
+ .menu{
+   text-align: center;
+   margin-top: 140px;
+ }
+ 
+ .menu li{
+   display: inline-block;
+   text-align: center;
+ }
+ 
+ .menu li a{
+   display: inline-block;
+   color: white;
+   text-decoration: none;
+   background-color: grey;
+   padding: 5px;
+   width: 20px;
+   height: 20px;
+   font-size: 20px;
+   border-radius: 100%;
+ }
+.conteiner-items{
+   margin-top: 30px;
+   left: 0;
+   right: 0;
+   display: flex;
+
+}
+.items{
+   float: left;
+   margin: 3px;
+   width: 295px;
+   height: 330px;
+   text-align: center;
+   border: 1px solid black;
+
+}
+
+.items img{
+   width: 220px;
+}
+.Info-item{
+   font-size: 7px;
+}
+.Info-item p{
+   font-size: 20px;
+}
+.Info-item button{
+   width: 200px;
+   margin-left: 50px;
+}
+.final{
+   text-align: center;
+   justify-content: center;
+}
+.final img{
+   font-size: cover;
+   width: 1500px;
+}
